@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "Modeling coronavirus epidemiology based on spreadsheet provided by sleepphones.com.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/naush/coronavirus-epidemiology-model/issues"
   },
-  "homepage": "https://github.com/naush/coronavirus-epidemiology-model#readme"
+  "homepage": "https://github.com/naush/coronavirus-epidemiology-model#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0"
+  },
+  "dependencies": {}
 }
