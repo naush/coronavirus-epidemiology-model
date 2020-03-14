@@ -21,5 +21,7 @@
     "eslint": "^6.8.0",
     "jest": "^25.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }
