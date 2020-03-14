@@ -1,3 +1,4 @@
-const Model = require ('./model');
+const Model = require('./model');
+const SafeGroupSize = require('./safe_group_size');
 
-module.exports = Model;
+module.exports = { Model, SafeGroupSize };
